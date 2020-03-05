@@ -1,0 +1,398 @@
+Sample screens for BurSim development.  /mrr  26 Aug 1999
+
+======================================================================
+DQ                                                                        
+-------------------------[  System Messages  ]------------------------    
+      RLGOUT=008 SORT COMPLETED                                           
+      @03099 SYSTEM/LOGOUT 05/2 DPK LOCKED RLGOUT=008                     
+      EOJ RLGOUT=008 00:00 IN 00:31 CHG 00:18                             
+ ==> EX OITFTP PR 5                                                       
+      BOJ OITFTP=008 080999 10:15                                         
+      OITFTP=008 OpenIT FTP v. 4.0.2.8     30000 started 08-26 10:15:28   
+      OITFTP=008 Using:  OpenIT IntLib v. 2.0.3 (SNIBIO)                  
+      OITFTP=008 CTL is not in mix; I am starting it                      
+      OITFTP=008 ZIP: EX OITCTL ; CG 99999 PR 8                           
+      BOJ OITCTL=009 091098 10:15                                         
+      OITCTL=009 *OpenI.T.* 7.0.7.13 (980416) M-Dialog CTL *              
+      OITCTL=009  Professional Networking Consultants, Inc.               
+      OITCTL=009 ENABLE FDPIOX SINGLE STOQUE                              
+      OITCTL=009 FILE-ACCESS sessions to hold in mix 0000                 
+      OITCTL=009 ZIP: RY 17/3,17/4                                        
+      17/3 GCR (6250) SCSIRD/SCSIRD B RL# 001 04/01/98 PT# 17035          
+      17/4 GCR (6250) SCSIWR/SCSIWR B RL# 001 04/01/98 PT# 17035          
+      OITCTL=009 OITCTL SCSI PATH ACTIVATED                               
+      OITCTL=009 TURBO MODE ENABLED - TURBO SCSI DRIVER                   
+      OITCTL=009 *WARNING: FDPIOX NOT RETRIEVING NSEC STOQUES*            
+      OITCTL=009 *WARNING: FDPIOX NOT IN MIX*                     
+        
+===================================================================
+The ZIP: message comes from the OS, not the application.
+All the application does is execute a ZIP statement.
+
+------------------------------------------------------------
+SPO messages from halt-load on 5 Sep 1999 ca. 12:05:
+Note that SPO is not cleared at halt-load.
+
+      OITCTL=005 *WARNING: FDPIOX NOT RETRIEVING NSEC STOQUES* 
+      OITCTL=005 *WARNING: FDPIOX NOT IN MIX*                  
+ ==> CH FDPIOZ FDPIO7                                          
+ ==> EX FDPIO7 PR 8                                            
+      BOJ FDPIO7=004 090399 15:02                              
+      FDPIO7=004 * OpenI.T. IOD-STQ1 * 7.0.8.02  (990901) *    
+      FDPIO7=004 *Professional Networking Consultants, Inc.*   
+      FDPIO7=004 GET PROGRAM CONFIGURATION INFO                
+      FDPIO7=004 SWITCH AUDIT OFF AT IOD-BOJ                   
+      FDPIO7=004 REQUESTING NODE INFORMATION                   
+      FDPIO7=004 My Host# = 0001                               
+      FDPIO7=004 My NetW# = 0000                               
+      FDPIO7=004 My Node# = 0001                               
+      FDPIO7=004 Console# = 0001 on My Node                    
+      FDPIO7=004 SRI-Initiator = /                             
+      FDPIO7=004 NODE INFO COMPLETED                           
+      FDPIO7=004 REQUESTING PROGRAM INFORMATION                
+      OITCTL=005 *WARNING* MCS STOQ entries = 0120 *           
+      FDPIO7=004 * PGM ENTRIES = 0140                          
+      FDPIO7=004 * PGM HIGHEST = 0145                          
+      FDPIO7=004 PROGRAM INFO COMPLETED                               
+      OITCTL=005 *WARNING: FDPIOX NOT RETRIEVING NSEC STOQUES*        
+      FDPIO7=004 WAIT FOR SWITCH BOJ HANDSHAKE                        
+      FDPIO7=004 ZIP: RQ FDPIO7                                       
+      FDPIO7 REMOVED                                                  
+      OITCTL=005 *WARNING: FDPIOX NOT RETRIEVING NSEC STOQUES*        
+      FDPIO7=004 OIT DRIVER LINKED TO SWITCH                          
+      FDPIO7=004 ---> MCS TABLE INFORMATION COMPLETED                 
+      FDPIO7=004 * OpenI.T. IOD-STQ1 * 7.0.8.02  (990901) *           
+      FDPIO7=004 MAXPGM=350  I0D7  NTWRK=0000  SINGLE-STOQUE CTL-NSEC 
+      FDPIO7=004 Advantage NetWork Routing DISABLED                   
+      FDPIO7=004 ---> ENTER MAIN-LINE LOOP                            
+      FDPIO7=004 *START-UP* HANDLER(0002) DOWN HL-STN                 
+      FDPIO7=004 *START-UP* HANDLER(0004) UP HL-STN                   
+      FDPIO7=004 ---> INITIALIZATION COMPLETE                         
+      FDPSWT=008 ON SNIPCK ZIP: EX OITMGR           ;  CG 888         
+      BOJ OITMGR=018 071699 15:03                                     
+      FDPSWT=008 ON SNIPCK ZIP: EX OITFMN           ;                 
+      OITMGR=018 FTPMGR v3.39                                         
+      BOJ OITFMN=012 072098 15:03                                     
+      BOJ DMS/ISAMDB=009 121294 15:03                                        
+      OITFMN=012 OITFMN v1.00                                                
+ ==> 16AX AUDIT START                                                        
+      FDPIO7=004 START AUDIT                                                 
+      FDPSWT=008 ON SNIPCK ALREADY AUDITING                                  
+      OITMGR=018 OITMGR status as of 1999/09/03 15:03:31                     
+      OITMGR=018 No active sessions.                                         
+      OITMGR=018 No transfers scheduled.                                     
+ ==> 16AX AUDIT STOP                                                         
+      FDPIO7=004 STOP AUDIT                                                  
+      FDPSWT=008 ON SNIPCK AUDITING TERMINATED 99/246 15:03:36,4             
+      OITFMN=012 Closed and reopened log file.                               
+      OITMGR=018 OITMGR status as of 1999/09/03 16:00:04                     
+      OITMGR=018 No active sessions.                                         
+      OITMGR=018 No transfers scheduled.                                     
+      FDPIO7=004 HANDLER(0002) DOWN - QUEUED MSG                             
+      FDPIO7=004 HANDLER(0002) DOWN - QUEUED MSG                             
+      05/1 DPK SNIPCK #111111 RECOVERED                                      
+      05/2 DPK SNIWRK #222222 RECOVERED                                      
+      ************************* Halt/Load **************** 09/05/1999 12:04  
+      MCPVS 3.30.R541A (DCOM STOQ DMS2) 13095                        
+      System #: 0, Hostname: SNIV410 , Memory: 021MD, QwkMem: 000KD  
+      SWITCH=002 ABORTED                                             
+      SCSDVR=003 ABORTED                                             
+      FDPIO7=004 ABORTED                                             
+      OITCTL=005 ABORTED                                             
+      OITFTP=006 ABORTED                                             
+      FDPSWT=008 ABORTED                                             
+      DMS/ISAMDB=009 ABORTED                                         
+      RKM001=010 ABORTED                                             
+      OITFMN=012 ABORTED                                             
+      UNIFTP=013 ABORTED                                             
+      UGENVT=014 ABORTED                                             
+      UGNSPO=015 ABORTED                                             
+      OITODT=016 ABORTED                                             
+      OITMGR=018 ABORTED                                             
+      KT/WATCHR=019 ABORTED                                          
+      MRR/WATCHR=020 ABORTED                                         
+      JGL/WATCHR=021 ABORTED                                         
+      DWN/WATCHR=022 ABORTED                                         
+      ’’ ** 15/4 GCR NOW SAVED                                  
+      ’’ ** 15/5 GCR NOW SAVED                                  
+      ’’ ** 15/3 GCR NOW SAVED                                  
+      ’’ ** 16/5 GCR NOW SAVED                                  
+      REMINDER: MEMORY DUMP MUST BE MANUALLY TAKEN TO TAPE.     
+      ’’ ** 14/0 GCR NOW SAVED                                  
+      ’’ ** 14/1 GCR NOW SAVED                                  
+      ’’ ** 14/2 GCR NOW SAVED                                  
+      15/1 GCR (6250) UGAT01 B RL# 001 10/17/95 PT# 02591       
+      15/0 GCR (6250) UGAT00 B RL# 001 10/17/95 PT# 02590       
+      17/3 GCR (6250) SCSIRD/SCSIRD B RL# 001 04/01/98 PT# 17035
+      17/4 GCR (6250) SCSIWR/SCSIWR B RL# 001 04/01/98 PT# 17035
+ ==> EX FDPIO7                                                  
+      BOJ FDPIO7=002 090399 12:05                               
+      FDPIO7=002 * OpenI.T. IOD-STQ1 * 7.0.8.02  (990901) *     
+      FDPIO7=002 *Professional Networking Consultants, Inc.*    
+      FDPIO7=002 GET PROGRAM CONFIGURATION INFO                 
+      FDPIO7=002 SWITCH AUDIT OFF AT IOD-BOJ                    
+      FDPIO7=002 *WARNING* 'CTL NOT IN MIX  *                   
+      FDPIO7=002 ********* ZIP EXECUTE 'CTL *                   
+      FDPIO7=002 ZIP: EX OITCTL PR 9 LOCK                                
+      BOJ OITCTL=003 091098 12:05                                        
+      OITCTL=003 *OpenI.T.* 7.0.7.13 (980416) M-Dialog CTL *             
+      OITCTL=003  Professional Networking Consultants, Inc.              
+      OITCTL=003 ENABLE FDPIOX SINGLE STOQUE                             
+      OITCTL=003 FILE-ACCESS sessions to hold in mix 0000                
+      OITCTL=003 ZIP: EX OITFTP PR 6 LOCK                                
+      OITCTL=003 ZIP: RY 17/3,17/4                                       
+      BOJ OITFTP=004 080999 12:05                                        
+      OITFTP=004 OpenIT FTP v. 4.0.2.8     30000 started 09-05 12:05:25  
+      OITFTP=004 Using:  OpenIT IntLib v. 2.0.3 (SNIBIO)                 
+      17/3 GCR (6250) SCSIRD/SCSIRD B RL# 001 04/01/98 PT# 17035         
+      17/4 GCR (6250) SCSIWR/SCSIWR B RL# 001 04/01/98 PT# 17035         
+      FDPIO7=002 ********* ZIP EXECUTE 'ODT *                            
+      FDPIO7=002 ZIP: EX OITODT LOCK                                     
+      BOJ OITODT=005 090399 12:05                                        
+      OITODT=005 OITODT: OPERATOR ODT-INPUT 7.0.2.05 (980901)            
+      FDPIO7=002 REQUESTING NODE INFORMATION                             
+      OITCTL=003 OITCTL SCSI PATH ACTIVATED                              
+      OITCTL=003 TURBO MODE ENABLED - TURBO SCSI DRIVER                  
+      FDPIO7=002 My Host# = 0001                               
+      FDPIO7=002 My NetW# = 0000                               
+      FDPIO7=002 My Node# = 0001                               
+      FDPIO7=002 Console# = 0001 on My Node                    
+      FDPIO7=002 SRI-Initiator = /                             
+      FDPIO7=002 NODE INFO COMPLETED                           
+      FDPIO7=002 REQUESTING PROGRAM INFORMATION                
+      OITCTL=003 *WARNING: FDPIOX NOT RETRIEVING NSEC STOQUES* 
+      OITCTL=003 *WARNING* MCS STOQ entries = 0075 *           
+      OITCTL=003 *WARNING: FDPIOX NOT RETRIEVING NSEC STOQUES* 
+      FDPIO7=002 * PGM ENTRIES = 0140                          
+      FDPIO7=002 * PGM HIGHEST = 0145                          
+      FDPIO7=002 PROGRAM INFO COMPLETED                        
+      OITCTL=003 *WARNING: FDPIOX NOT RETRIEVING NSEC STOQUES* 
+      FDPIO7=002 WAIT FOR SWITCH BOJ HANDSHAKE                 
+      FDPIO7=002 OPTION TO ZIP SWITCH SET                      
+      FDPIO7=002 ZIP: RQ FDPSWT                                
+      FDPSWT INACTIVE                                          
+      FDPIO7=002 ZIP: EX FDPSWT PR 7 LOCK                      
+      FDPIO7=002 ZIP: RQ FDPIO7                                
+      FDPIO7 REMOVED                                                       
+      BOJ FDPSWT=006 ON SNIPCK 060397 12:06                                
+      FDPSWT=006 ON SNIPCK FDPSWT VERSION 3.6.4 VS OF 06/03/97 13:12       
+      FDPSWT=006 ON SNIPCK AUDIT WILL BE SELECTED BY THE F.E.P.            
+      FDPSWT=006 ON SNIPCK AUDITING MSGS TO PROCESSES                      
+      FDPSWT=006 ON SNIPCK WW- DSXAMI Parameters missing for FDPSWT        
+      FDPSWT=006 ON SNIPCK WW- Default values will be used AX to continue  
+      ’’ ** FDPSWT=006 ON SNIPCK ACCEPT                                    
+      OITCTL=003 *WARNING: FDPIOX NOT RETRIEVING NSEC STOQUES*             
+      OITCTL=003 *WARNING: FDPIOX NOT RETRIEVING NSEC STOQUES*             
+ ==> 6AX        === I did enter this.
+      FDPIO7=002 OIT DRIVER LINKED TO SWITCH                               
+      FDPIO7=002 ---> MCS TABLE INFORMATION COMPLETED                      
+      FDPIO7=002 * OpenI.T. IOD-STQ1 * 7.0.8.02  (990901) *                
+      FDPIO7=002 MAXPGM=350  I0D7  NTWRK=0000  SINGLE-STOQUE CTL-NSEC      
+      FDPIO7=002 Advantage NetWork Routing DISABLED                        
+      FDPIO7=002 ---> ENTER MAIN-LINE LOOP                                 
+      FDPIO7=002 *START-UP* HANDLER(0002) DOWN HL-STN                      
+      FDPIO7=002 *START-UP* HANDLER(0004) UP HL-STN                        
+      FDPIO7=002 ---> INITIALIZATION COMPLETE                              
+      FDPSWT=006 ON SNIPCK ZIP: EX OITMGR           ;  CG 888          
+ ==> EX SWITCH  === and this.
+      BOJ OITMGR=007 071699 12:06                                      
+      OITMGR=007 FTPMGR v3.39                                          
+      BOJ SWITCH=008 031799 12:06                                      
+      FDPSWT=006 ON SNIPCK ZIP: EX OITFMN           ;                  
+      SWITCH=008 Version 1.045d                                        
+      SWITCH=008 Using Normal Buffer Size For Appls                    
+      BOJ OITFMN=009 072098 12:07                                      
+      OITFMN=009 OITFMN v1.00                                          
+      SWITCH=008 ZIP: 8 PR 8                                           
+      SWITCH=008 PR=8                                                  
+      SWITCH=008 ZIP: 8 LP                                             
+      LOCKED SWITCH=008                                                
+      BOJ DMS/ISAMDB=010 121294 12:07                                  
+      SWITCH=008 Restarting                                            
+      OITMGR=007 OITQUE is corrupted -- attempting recovery.           
+      OITMGR=007 ZIP: CH OITQUE FTPBAD ON SNIPCK                       
+      SWITCH=008 ZIP: EX SCSDVR PR 9 LOCK                              
+      BOJ SCSDVR=011 071098 12:07                                      
+      SCSDVR=011 Beginning UG Initialization                  
+      SCSDVR=011 UniGate SCSI Driver Version 2.001u           
+      SCSDVR=011 Using Normal Buffer Size For Appls           
+      SCSDVR=011 Trail size set to  10,000                    
+      SWITCH=008 Trail size set to  10,000                    
+      SWITCH=008 UNTHROTTLE % SET AT 50%                      
+      SCSDVR=011 Storing discarded messages in 000000/C1B285  
+      SWITCH=008 ARMing for recovery                          
+      SCSDVR=011 ZIP: SPO RY 15/0                             
+ ==> RY 15/0          === Note: I did not type this!
+      SCSDVR=011 ZIP: SPO RY 15/1                             
+ ==> RY 15/1                                                  
+      OITFMN=009 Closed and reopened log file.                
+      ’’ ** NO FILE UGAT00 MTP RL# 001 SCSDVR=011             
+      EOJ DMS/ISAMDB=010 12:07 IN 00:26 CHG 00:04             
+      15/1 GCR (6250) UGAT01 B RL# 001 10/17/95 PT# 02591     
+      15/0 GCR (6250) UGAT00 B RL# 001 10/17/95 PT# 02590     
+      BOJ DMS/ISAMDB=010 121294 12:07                         
+      OITMGR=007 OITQUE recovery complete.                    
+      SCSDVR=011 UNIGATE Channel Opened                       
+      SCSDVR=011 GETTING INITIAL CLUSTER INFO ...                  
+      SCSDVR=011 GETTING ALL CLUSTER'S INFO                        
+      SCSDVR=011 Cluster 02  On-Line                               
+      SCSDVR=011 Cluster 04  On-Line                               
+      SCSDVR=011 Cluster 05  On-Line                               
+      SCSDVR=011 HOST #04, CLUSTER #04, 06 DEFINED, 03 ATTACHED    
+      SCSDVR=011 MY HOST NAME UG4                                  
+      SCSDVR=011 USING EXISTING STATION FILES                      
+      SCSDVR=011 INITIALIZING STATION TABLE FOR FEP #02.           
+      SCSDVR=011 INITIALIZING STATION TABLE FOR FEP #04.           
+      OITMGR=007 OITMGR status as of 1999/09/05 12:07:48           
+      OITMGR=007 No active sessions.                               
+      OITMGR=007 No transfers scheduled.                           
+      SCSDVR=011 DUP GLOBAL NUMBERS 04/012 - 04/406 = 0412         
+      SCSDVR=011 SECOND STATION OVERRIDES FIRST STATION.           
+      SCSDVR=011 DUP GLOBAL NUMBERS 04/000 - 04/201 = 1200         
+      SCSDVR=011 SECOND STATION OVERRIDES FIRST STATION.           
+      SCSDVR=011 INITIALIZING STATION TABLE FOR FEP #05.           
+      SCSDVR=011 01431 STATIONS INITIALIZED                        
+      SCSDVR=011 INITIALIZING PROGRAM TABLES                          
+      SCSDVR=011 PROGRAM TABLES INITIALIZED                           
+      SCSDVR=011 Successful Handshake with ACS                        
+ ==> EX UNIFTP                                                        
+      SCSDVR=011 UG driver initialized                                
+      SCSDVR=011 ARMing for recovery.                                 
+      BOJ UNIFTP=012 060499 12:08                                     
+      UNIFTP=012 UNIFTP Version 3.9.03+                               
+      UNIFTP=012 Using:  UGH IntLib Version 1.05 (UGHIO)              
+      SWITCH=008 ZIP: EX RKM001 PR 7                                  
+      SWITCH=008 APPL RKM001 executed in FULL mode.                   
+      BOJ RKM001=013 020699 12:08                                     
+      OITCTL=003 *WARNING: FDPIOX NOT RETRIEVING NSEC STOQUES*        
+      SCSDVR=011 Recovering records from initialization file          
+      SWITCH=008 ZIP: EX UGNSPO PR 6                                  
+      SCSDVR=011 0001 messages recovered from init                    
+      SWITCH=008 APPL UGNSPO executed in FULL mode.                   
+      BOJ UGNSPO=014 ON SNIWRK 082996 12:09                           
+      Rspo: ’ 401,          >COMPILE MRR WITH WATCHR(,"MRFILE").      
+      BOJ MRR/WATCHR=015 083095 12:09                                 
+      @03133 remote OPEN OUT MRR/WATCHR=015                           
+==== 7 Sep 1999
+EX MRR7Z
+ ** KEYBOARD IGNORED: INV CODE FILE FORMAT   
+EX NOTHER                                                
+ ** KEYBOARD IGNORED: PROG NOT ON CODE PATH           
+----------------------------------
+EX MRRTS2                                                              
+-------------------------[  System Messages  ]------------------------ 
+      @03140 MRRTS2 OPEN OUT MRRTS2/BPL=018                            
+      @03140 MRRTS2 05/2 DPK LOCKED MRRTS2/BPL=018                     
+      EOJ MRRTS2/BPL=018 18:11 IN 00:12 CHG 00:05 ** SYNTAX ERR        
+      OITFTP=004 RETR (SNI1)@03140 ON PACK BACKUP                      
+      UNIFTP=012 STOR MRFILE ON PACK RECORD 80 RPB 9 DATA              
+      BOJ COMPIL=018 092595 18:13                                      
+      COMPIL=018 Creating PSEUDO Card deck                             
+      #01413 LOCKED COMPIL=018                                         
+      COMPIL=018 Compile Initiated                                     
+      BOJ MRRTS2/BPL=019 122394 18:13                                  
+      EOJ COMPIL=018 18:13 IN 00:05 CHG 00:02                          
+      MRR/WATCHR=015 Ready for Next Request                            
+      @03141 MRRTS2 OPEN OUT MRRTS2/BPL=019                            
+      @03141 MRRTS2 05/2 DPK LOCKED MRRTS2/BPL=019                     
+      EOJ MRRTS2/BPL=019 18:13 IN 00:13 CHG 00:05                      
+      UNIFTP=012 DELE @03140 ON PACK                                   
+      UNIFTP=012 ZIP: RM @03140 ON PACK                                
+      Rspo: ’ 401,          >EX MRRTS2.                                
+      BOJ MRRTS2=019 090799 18:14                                      
+      ’’ -- MRRTS2=019 ADDR ERR 000472 SEG #001                        
+      ’’ ** MRRTS2=019 DS OR DP                                        
+--------------------------------------
+On the V console this looked like:
+      Rspo:  401,          >EX MRRTS2.      
+      BOJ MRRTS2=019 090799 18:14                                      
+       -- MRRTS2=019 ADDR ERR 000472 SEG #001
+       ** MRRTS2=019 DS OR DP   
+Basically, just omit the ' symbols.
+---------------------------------------------------------------------
+WY                                    
+P=9 M=9 OITCTL=003 WTG I/O            
+P=9 M=9 SCSDVR=011 WTG I/O            
+P=8 M=8 SWITCH=008 WTG COMPLEX WAIT   
+P=8 M=8 FDPSPO=016 ON SNIPCK WTG STOQ 
+ENTRY FDPSPO                          
+P=7 M=7 FDPSWT=006 ON SNIPCK WTG STOQ 
+ENTRY FDPSWT                          
+P=7 M=7 DMS/ISAMDB=010 WTG DMS FUNCTIO
+N                                     
+P=7 M=7 RKM001=013 WTG CRCR RECV SWITC
+H                                     
+P=6 M=6 OITFTP=004 WTG COMPLEX WAIT   
+P=6 M=6 OITMGR=007 WTG COMPLEX WAIT   
+P=6 M=6 OITFMN=009 WTG COMPLEX WAIT   
+P=6 M=6 UGNSPO=014 ON SNIWRK EXECUTING
+P=6 M=6 MRR/WATCHR=015 SLEEPING       
+P=6 M=6 DWN/WATCHR=017 SLEEPING       
+P=4 M=4 FDPIO7=002 EXECUTING          
+P=4 M=4 OITODT=005 WTG COMPLEX WAIT   
+P=4 M=4 UNIFTP=012 WTG COMPLEX WAIT   
+                                      
+--------------------------------------
+Commands tried on 18 Sep 1999 (on actual console):
+WY XXXX
+  ** KEYBOARD IGNORED: INV OPTION  (not logged in SPO)
+
+EX BENCH1 BB
+  ** KEYBOARD IGNORED: MISSING KEY WORD
+
+D GG
+  ** KEYBOARD IGNORED: MISSING KEY WORD  (logged)
+
+DQ GG
+  ** KEYBOARD IGNORED: INV SYNTAX  (not logged)
+
+EX GG
+  ** KEYBOARD IGNORED: PROG NOT ON CODE PATH  (logged)
+---------------------------------------------------
+25 Sept 1999
+
+99AX
+. ** KEYBOARD IGNORED: JOB INACTIVE  
+----------------------------------------------------
+      OITMGR=010 OITMGR status as of 1999/09/25 19:00:00
+      OITMGR=010 No active sessions.                    
+      OITMGR=010 No transfers scheduled.                
+      OITMGR=010 OITMGR status as of 1999/09/25 20:00:05
+      OITMGR=010 No active sessions.                    
+      OITMGR=010 No transfers scheduled.                
+-----------------------------------------------------
+      Rspo: ’ 401,          >6AX.                                            
+      OITFTP=006                                                             
+      OITFTP=006 OpenIT FTP Version 7.1.3.7                                  
+      OITFTP=006 Copyright (c) 1997 by Standard Networks, Inc.               
+      OITFTP=006   All rights reserved.                                      
+      OITFTP=006                                                             
+      OITFTP=006 FTP. >                                                      
+      Rspo: ’ 401,          >99AX.                                           
+      Rspo: ’ 401,          >6AX OPEN MRRNT.                                 
+      OITFTP=006 OPEN MRRNT                                                  
+      OITFTP=006 FTP Trying...220 mrrnt Microsoft FTP Service (Version 4.0). 
+      OITFTP=006 Enter user ID:                                              
+      Rspo: ’ 401,          >6AX026.                                         
+      OITFTP=006 026                                                          
+      OITFTP=006 331 Password required for 026.                               
+      OITFTP=006 Enter password:                                              
+      Rspo: ’ 401,          >6AX026026.                                       
+      OITFTP=006 026026                                                       
+      OITFTP=006 230-MRRNT: Unauthorized access prohibited.                   
+      OITFTP=006 230 User 026 logged in.                                      
+      OITFTP=006                                                              
+      OITFTP=006                                                              
+      OITFTP=006 FTP(MRRNT) >                                                 
+      Rspo: ’ 401,          >6AXPUT MRR1M.                                    
+      OITFTP=006 PUT MRR1M                                                    
+      OITFTP=006 RETR MRR1M ON PACK DATA                                      
+      OITFTP=006 OITFTP: MRR1M  block size multiplied by 000011               
+      OITFTP=006 150 Opening ASCII mode data connection for MRR1M.            
+      OITFTP=006 Transferred 1025000 bytes in 23.79 seconds ( 344624 bits/sec 
+      OITFTP=006 , 43078 bytes/sec).                                          
+      OITFTP=006                                                              
+      OITFTP=006 FTP(MRRNT) >                                                 
+      Rspo: ’ 401,          >6AXQUIT.   
+      OITFTP=006 QUIT                   
+      OITFTP=006 FTP Session terminated.                                                                                   

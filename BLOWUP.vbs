@@ -1,0 +1,3 @@
+' BLOWUP.vbs
+
+Accept (x)

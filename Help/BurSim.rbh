@@ -1,0 +1,34 @@
+[Project]
+Help Compiler=HCW
+Remove Unused=1
+Version=512
+ConvertedFromV1=0
+HasGlossary=0
+Automatic Map Files=0
+NextFile=2
+WH2RH=0
+
+[Document Files]
+BurSim.doc=1
+
+[File Properties]
+HasProperties=1
+BrowseType=0
+AutoMapFile=0
+StartingWith=0
+IncrementBy=20
+NextTopicNumber=0
+StartingNumber=1
+BrowseString=MAIN:0
+DefaultBuildTag=
+Update Styles= 2
+Update WYSIWYG=0
+
+[VERSION]
+RHFile=4.0
+[.rbh]
+CopyTo=1
+PreBatch=
+PostBatch=
+Dir0=.\WinHelp4
+Dir1=C:\MRR\BURSIM

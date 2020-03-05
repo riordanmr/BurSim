@@ -1,0 +1,29 @@
+:Base BurSim.HLP
+1 BurSim
+2 Contents=Contents
+2 Historical background=Historical_background
+2 Installing and running=Installing_and_running
+2 Configuring=Configuring
+2 Console display=Console_display
+2 Commands=Commands
+1 Scripting
+2 Scripting overview=Scripting_overview
+2 Scripting API
+3 Scripting API=Scripting_API
+3 Accept=Accept
+3 FillField=FillField
+3 GetInputField=GetInputField
+3 GetSTOQMsg=GetSTOQMsg
+3 InitFormBuf=InitFormBuf
+3 OpenForm=OpenForm
+3 OpenFormFile=OpenFormFile
+3 SendMCSBuf=SendMCSBuf
+3 SendSTOQMsg=SendSTOQMsg
+3 SPOMsg=SPOMsg
+3 SuppressField=SuppressField
+3 Wait=Wait
+3 ZIP=ZIP
+1 Form files=Form_files
+1 Telnet server
+2 Telnet server=Telnet_server
+2 Station table=Station_table

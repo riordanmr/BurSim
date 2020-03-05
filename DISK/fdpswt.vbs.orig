@@ -1,0 +1,7 @@
+' FDPSWT.vbs - Partially simulate OpenIT switch
+' Mark Riordan   10 Sep 1999
+FDPSWT VERSION 3.6.4 VS OF 06/03/97 13:12     
+AUDIT WILL BE SELECTED BY THE F.E.P.          
+AUDITING MSGS TO PROCESSES                    
+WW- DSXAMI Parameters missing for FDPSWT      
+WW- Default values will be used AX to continue

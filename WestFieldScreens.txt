@@ -1,0 +1,31 @@
+!Screen Main
+Welcome to the Westfield Electronics Inventory System
+
+Make your selection with an X:
+
+[ ] Browse products
+[ ] Exit
+
+!End
+
+!Screen Browse
+ Westfield Electronics - List of products                                  {nnnn}
+
+ Enter X before a product to update it.
+
+     Prod #    Stock  Description
+ [ ] {numb}   {stok}  {description                             } 
+
+
+Enter X to return to main: [ ]
+!End
+
+!Screen Enter
+Westfield Electronics - Product Entry/Update
+
+Part number:      [    ]
+Part description: [                                        ]
+Number in stock:  [    ]
+!End
+
+

@@ -1,0 +1,31 @@
+; FLDTST.txt
+; This is a test file for FLDTST.vbs
+!Form Form1
+FLDTST Demo App                                                           `FORM]
+
+*****  Welcome to {WelcomeMsg              }!        
+This is the first form.
+
+     Enter your name: [UserName            ]
+   and your password: [Password            ]
+
+   Then press Enter when ready.
+   
+   
+                                                           System time: {Time  
+!EndForm
+
+!Form Form2
+FLDTST Demo App                                                           `FORM]
+
+You supplied this information:
+      Username: {UserName}
+      Password: {Password}
+                                                                  X to Exit: [X]
+!endform
+
+!Form LogOff
+FLDTST Demo App                                                           `FORM]
+
+Good-bye.   Sorry to see you leave so soon.
+!EndForm

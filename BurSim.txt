@@ -1,0 +1,73 @@
+BurSim - Burroughs mid-range system Console screen saver
+Mark Riordan  August 1999, after SS6000 of February 1999
+
+Classes:
+
+CWndMain:  
+
+CDrawWnd: 
+
+CSS6000Wnd: 
+
+--------------------------
+Documentation on Microsoft scripting:
+
+-- Article Q168214
+-- Sample accompanying code.  
+-- Help on JScript and VBScript in \WINNT\Help\jscript\htm and vbscript
+-- Start\Programs\Microsoft\Microsoft Windows Script\VBScript V5 Documentation.lnk
+  .CHM-style help file with sections on several objects.
+-- 
+--------------------------
+To Do:
+c -- Add Priority field to CJob.  Initially fix at 6.
+c -- Implement EX file PR pri, mapping values to NT thread priority.
+c -- Implement real mix display.  Initially, use file size for mem.
+c -- Implement DQ command (not exactly same as mix display)
+-- Implement JavaScript scripts.
+c -- Change SNIV410 to current computer name--or make configurable.
+c -- Add scripts path to config, defaulting to DISK.
+-- Implement PD.
+c -- Add minimize button.
+c -- Need way to associate STOQ name with program.  Create a CMap
+ of STOQ name to structure containing event handle and critical section.
+c -- Fix problem of AXing causing msg to go to multiple programs w/ same name.
+x -- Reset AX flag upon receipt.
+-- Catch script runtime exceptions.
+
+======  Forms  ==================
+Format is:
+!Form FormName
+Text of form.  [ = beg of unprot field.  ] = End of unprot or prot field.
+` = beg of prot transmitable prompt  
+{ = beg of reg text field.  } = end of reg text field.
+!EndForm
+!Alias NewName=OldName
+
+dbnum = OpenFormFile(FormFileName)
+FormDef = OpenForm(dbnum, FormName)
+FormBuf = InitFormBuf(FormDef)
+FillField(FormDef,FieldName,FieldContents,FormBuf)
+GetInputField(LPCTSTR FormDef, LPCTSTR Buf)
+
+
+=======================
+
+== 1999-09-10
+-- BurSim:  Version 0.8.2.0.
+-- Implemented PR option on EX command.
+-- Added prefix to header, and add term_loc to header.  Recognize 
+ whether a STOQ being retrieved has a header.
+
+== 1999-09-11
+-- Added minimize box.
+-- Implemented -i initfilename and LogFile, strScriptsPath in .ini file.
+-- Fixed problem of AXing causing msg to go to mult progs w/ same name.
+
+== 1999-09-11
+-- Implemented CSTOQ and got rid of special STOQ list and event in CJob.
+-- Implemented WY command (but no status)
+
+== 1999-10-17
+-- Implemented ListenIP.
+-- Adding .ini file description and form file description to .hlp.

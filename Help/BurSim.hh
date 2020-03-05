@@ -1,0 +1,11 @@
+#define Contents	1
+#define CDC_6000_Series_computers_operating_systems	2
+#define What_s_a_CDC_6000_console_	3
+#define SCOPE_Hustler_displays	4
+#define Running_BurSim	5
+#define Running_BurSim_as_a_screen_saver	6
+#define Running_BurSim_as_a_normal_Windows_program	7
+#define Configuring_BurSim	8
+#define Feedback_wanted	9
+#define The_author	10
+#define What_s_implemented_so_far	11

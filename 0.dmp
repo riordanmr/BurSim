@@ -1,0 +1,122 @@
+Detected memory leaks!
+The thread 0x197 has exited with code 0 (0x0).
+The thread 0x178 has exited with code 0 (0x0).
+The thread 0x140 has exited with code 0 (0x0).
+The thread 0x1B4 has exited with code 0 (0x0).
+The thread 0x1AD has exited with code 0 (0x0).
+The thread 0x192 has exited with code 0 (0x0).
+The thread 0x15D has exited with code 0 (0x0).
+The thread 0x142 has exited with code 0 (0x0).
+The thread 0x14A has exited with code 0 (0x0).
+Dumping objects ->
+{1638} client block at 0x009369C0, subtype 0, 28 bytes long.
+a CStringList object at $009369C0, 28 bytes long
+{1637} normal block at 0x00934220, 32 bytes long.
+ Data: <     i   M      > 98 01 00 00 C0 69 93 00 C0 4D 14 00 FF FF FF FF 
+array_s.cpp(113) : {1635} normal block at 0x00934130, 4 bytes long.
+ Data: <,E  > 2C 45 93 00 
+strcore.cpp(118) : {1634} normal block at 0x00934520, 19 bytes long.
+ Data: <            FLDT> 01 00 00 00 06 00 00 00 06 00 00 00 46 4C 44 54 
+strcore.cpp(118) : {1626} normal block at 0x0092FA18, 1076 bytes long.
+ Data: <    '   '   ' OI> 01 00 00 00 27 04 00 00 27 04 00 00 27 20 4F 49 
+{1625} normal block at 0x00934460, 4 bytes long.
+ Data: < sC > 98 73 43 00 
+{1611} normal block at 0x00ED16B8, 1071 bytes long.
+ Data: <' OITFTP.vbs - P> 27 20 4F 49 54 46 54 50 2E 76 62 73 20 2D 20 50 
+strcore.cpp(118) : {1610} normal block at 0x009344E0, 19 bytes long.
+ Data: <            OITF> 01 00 00 00 06 00 00 00 06 00 00 00 4F 49 54 46 
+{1609} normal block at 0x00934380, 68 bytes long.
+ Data: <          L_  L_> 00 00 00 00 CD CD CD CD 14 CB 4C 5F 14 CB 4C 5F 
+strcore.cpp(118) : {1608} normal block at 0x009342C0, 28 bytes long.
+ Data: <            DISK> 01 00 00 00 0F 00 00 00 0F 00 00 00 44 49 53 4B 
+{1599} normal block at 0x009343F0, 56 bytes long.
+ Data: <     B          > B8 16 ED 00 CC 42 93 00 06 00 00 00 06 00 00 00 
+strcore.cpp(118) : {1573} normal block at 0x00936A10, 409 bytes long.
+ Data: <            ' OI> 01 00 00 00 8C 01 00 00 8C 01 00 00 27 20 4F 49 
+{1572} normal block at 0x009352E0, 4 bytes long.
+ Data: < sC > 98 73 43 00 
+{1565} client block at 0x00935310, subtype 0, 28 bytes long.
+a CStringList object at $00935310, 28 bytes long
+{1564} normal block at 0x00935BD0, 32 bytes long.
+ Data: <(    S   K      > 28 00 00 00 10 53 93 00 A0 4B 14 00 FF FF FF FF 
+array_s.cpp(113) : {1562} normal block at 0x00932130, 4 bytes long.
+ Data: <\n  > 5C 6E 93 00 
+strcore.cpp(118) : {1561} normal block at 0x00936E50, 19 bytes long.
+ Data: <            WSTF> 01 00 00 00 06 00 00 00 06 00 00 00 57 53 54 46 
+strcore.cpp(118) : {1557} normal block at 0x00ED2940, 5744 bytes long.
+ Data: <    c   c   ' WS> 01 00 00 00 63 16 00 00 63 16 00 00 27 20 57 53 
+{1556} normal block at 0x009337A0, 4 bytes long.
+ Data: < sC > 98 73 43 00 
+{1542} normal block at 0x00935360, 404 bytes long.
+ Data: <' OITCTL.vbs - P> 27 20 4F 49 54 43 54 4C 2E 76 62 73 20 2D 20 50 
+strcore.cpp(118) : {1541} normal block at 0x00932AB0, 19 bytes long.
+ Data: <            OITC> 01 00 00 00 06 00 00 00 06 00 00 00 4F 49 54 43 
+strcore.cpp(118) : {1540} normal block at 0x00935520, 28 bytes long.
+ Data: <            DISK> 01 00 00 00 0F 00 00 00 0F 00 00 00 44 49 53 4B 
+{1531} normal block at 0x00935B30, 56 bytes long.
+ Data: <`S  ,U          > 60 53 93 00 2C 55 93 00 02 00 00 00 09 00 00 00 
+strcore.cpp(118) : {1494} normal block at 0x00ECFE98, 1717 bytes long.
+ Data: <            ' FD> 01 00 00 00 A8 06 00 00 A8 06 00 00 27 20 46 44 
+{1493} normal block at 0x00933370, 4 bytes long.
+ Data: < sC > 98 73 43 00 
+{1486} client block at 0x00932B80, subtype 0, 28 bytes long.
+a CStringList object at $00932B80, 28 bytes long
+{1485} normal block at 0x00934670, 32 bytes long.
+ Data: <     +   I      > 88 01 00 00 80 2B 93 00 80 49 14 00 FF FF FF FF 
+array_s.cpp(113) : {1483} normal block at 0x009359F0, 4 bytes long.
+ Data: < G  > 1C 47 93 00 
+strcore.cpp(118) : {1482} normal block at 0x00934710, 20 bytes long.
+ Data: <            SNIS> 01 00 00 00 07 00 00 00 07 00 00 00 53 4E 49 53 
+strcore.cpp(118) : {291} normal block at 0x00ECD2E0, 11121 bytes long.
+ Data: <    d+  d+  ' SN> 01 00 00 00 64 2B 00 00 64 2B 00 00 27 20 53 4E 
+{290} normal block at 0x00932590, 4 bytes long.
+ Data: < sC > 98 73 43 00 
+{263} normal block at 0x00ECBC38, 5739 bytes long.
+ Data: <' WSTFLD.vbs - W> 27 20 57 53 54 46 4C 44 2E 76 62 73 20 2D 20 57 
+strcore.cpp(118) : {260} normal block at 0x00933DD0, 19 bytes long.
+ Data: <            WSTF> 01 00 00 00 06 00 00 00 06 00 00 00 57 53 54 46 
+{258} normal block at 0x00933ED0, 68 bytes long.
+ Data: <          L_  L_> 00 00 00 00 CD CD CD CD 14 CB 4C 5F 14 CB 4C 5F 
+strcore.cpp(118) : {257} normal block at 0x00933D70, 28 bytes long.
+ Data: <            DISK> 01 00 00 00 0F 00 00 00 0F 00 00 00 44 49 53 4B 
+{248} normal block at 0x00933F40, 56 bytes long.
+ Data: <8   |=          > 38 BC EC 00 7C 3D 93 00 05 00 00 00 06 00 00 00 
+{230} normal block at 0x0092C788, 11116 bytes long.
+ Data: <' SNISWIM.vbs - > 27 20 53 4E 49 53 57 49 4D 2E 76 62 73 20 2D 20 
+strcore.cpp(118) : {229} normal block at 0x00932430, 20 bytes long.
+ Data: <            SNIS> 01 00 00 00 07 00 00 00 07 00 00 00 53 4E 49 53 
+{228} normal block at 0x00933FB0, 68 bytes long.
+ Data: <          L_  L_> 00 00 00 00 CD CD CD CD 14 CB 4C 5F 14 CB 4C 5F 
+strcore.cpp(118) : {227} normal block at 0x009323D0, 29 bytes long.
+ Data: <            DISK> 01 00 00 00 10 00 00 00 10 00 00 00 44 49 53 4B 
+{218} normal block at 0x00932470, 56 bytes long.
+ Data: <     #          > 88 C7 92 00 DC 23 93 00 04 00 00 00 06 00 00 00 
+{200} normal block at 0x00ECB540, 1712 bytes long.
+ Data: <' FDPIO7.vbs - P> 27 20 46 44 50 49 4F 37 2E 76 62 73 20 2D 20 50 
+strcore.cpp(118) : {199} normal block at 0x009322A0, 19 bytes long.
+ Data: <            FDPI> 01 00 00 00 06 00 00 00 06 00 00 00 46 44 50 49 
+{198} normal block at 0x009322E0, 68 bytes long.
+ Data: <          L_  L_> 00 00 00 00 CD CD CD CD 14 CB 4C 5F 14 CB 4C 5F 
+strcore.cpp(118) : {197} normal block at 0x00932230, 28 bytes long.
+ Data: <            DISK> 01 00 00 00 0F 00 00 00 0F 00 00 00 44 49 53 4B 
+{188} normal block at 0x00932350, 56 bytes long.
+ Data: <@   <"          > 40 B5 EC 00 3C 22 93 00 03 00 00 00 06 00 00 00 
+{159} normal block at 0x009328A0, 4 bytes long.
+ Data: < sC > 98 73 43 00 
+{109} normal block at 0x00932AF0, 68 bytes long.
+ Data: <          L_  L_> 00 00 00 00 CD CD CD CD 14 CB 4C 5F 14 CB 4C 5F 
+{93} normal block at 0x00FC0040, 1673216 bytes long.
+ Data: <                > 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{92} normal block at 0x00ECACF8, 2052 bytes long.
+ Data: <                > 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{91} normal block at 0x00EC0060, 44118 bytes long.
+ Data: <                > FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{90} normal block at 0x00927720, 20520 bytes long.
+ Data: <                > 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+{89} normal block at 0x00932BD0, 80 bytes long.
+ Data: <MRRNT           > 4D 52 52 4E 54 00 CD CD CD CD CD CD CD CD CD CD 
+{66} client block at 0x009314B0, subtype 0, 64 bytes long.
+a CWnd object at $009314B0, 64 bytes long
+Object dump complete.
+The thread 0x19B has exited with code 0 (0x0).
+The program 'H:\mrr\BurSim\Debug\BurSim.exe' has exited with code 0 (0x0).
